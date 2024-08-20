@@ -1,4 +1,3 @@
-
 resource "aws_subnet" "terraform_subnet_1" {
   vpc_id = var.vpc_terraform
   cidr_block = var.cidr_blocks[1].cidr_block

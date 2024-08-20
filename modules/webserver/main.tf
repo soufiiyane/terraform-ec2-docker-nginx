@@ -12,7 +12,7 @@ data "aws_ami" "latest_ami" {
 }
 
 resource "aws_key_pair" "ssh_key" {
-  key_name   = "server_keye"
+  key_name   = "server_key"
   public_key = file(var.ssh_public_key_path)
 }
 
