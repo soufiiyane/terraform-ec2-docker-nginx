@@ -15,3 +15,6 @@ instance_type = "t2.micro"
 av_zone = "us-east-1a"
 
 ssh_public_key_path = "/home/tmt/.ssh/id_rsa.pub"
+
+user_data = "script.sh"
+
